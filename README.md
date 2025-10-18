@@ -1,3 +1,13 @@
+# Wordpress api bundle
+
+--------  
+
+Documentation soon
+
+--------
+
+## Development and Composer usage
+
 WordpressApiBundle — Development and Composer usage
 
 When developing this bundle inside a Symfony application (using a path repository), you generally do NOT run `composer install` inside the bundle directory. Instead, manage all dependencies from the application root.
