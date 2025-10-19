@@ -10,6 +10,11 @@ class WordpressApiGetter extends AbstractWordpressApiConnector
     private string $sortBy = 'title';
     private string $sortOrder = 'asc';
 
+    public function __construct(string $baseUrl)
+    {
+        parent::__construct($baseUrl);
+    }
+
     public function queryBy(string $postType): static
     {
         $this->type = $postType;
