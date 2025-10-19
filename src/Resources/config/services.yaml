@@ -4,6 +4,10 @@ services:
     autoconfigure: true
     public: false
 
+  Francoisvaillant\WordpressApiBundle\:
+    resource: '../../*'
+    exclude: '../../{DependencyInjection,Entity,Tests,Kernel.php}'
+
   Francoisvaillant\WordpressApiBundle\WordpressApiGetter:
     public: true
     arguments:
